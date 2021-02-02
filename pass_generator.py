@@ -1,10 +1,11 @@
 import random
 import os
+import string
 
-numbers = "0123456789"
-upper = "ABCDEFGHIJKLMNOPRQSTVWUXYZ"
-lower = upper.lower()
-symbols = ")(}{][></!?@#$%^&*-=+;:,."
+numbers = string.digits
+upper = string.ascii_uppercase
+lower = string.ascii_lowercase
+symbols = string.punctuation
 temp = ""
 
 def clear():
