@@ -90,7 +90,7 @@ if is_numbers == False and is_symbols == False and is_upper == False and is_lowe
 else:
 	print("======== YOUR PASSWORDS ========\n")
 
-	with open('pass.txt', 'a') as f:
+	with open('password_generator/pass_list.txt', 'a') as f:
 		f.write(f"Lenght: {lenght} / Count: {count} / Numbers: {is_numbers} / Lower: {is_lower} / Upper: {is_upper} / Symbols: {is_symbols} / Seed: {is_seed}, {seed}\n")
 
 		for i in range (int(count)):
