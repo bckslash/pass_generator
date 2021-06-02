@@ -80,7 +80,7 @@ if is_upper:
 	temp += upper
 
 if is_symbols:
-	temp+= symbols
+	temp += symbols
 
 if is_seed:
 	random.seed(seed)
